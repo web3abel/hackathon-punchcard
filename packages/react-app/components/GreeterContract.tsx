@@ -17,9 +17,9 @@ export function GreeterContract({ contractData }) {
 
   const contract = contractData
     ? (new kit.web3.eth.Contract(
-        contractData.abi,
-        contractData.address
-      ) as any as Greeter)
+      contractData.abi,
+      contractData.address
+    ) as any as Greeter)
     : null;
 
   useEffect(() => {
@@ -64,7 +64,7 @@ export function GreeterContract({ contractData }) {
         });
       });
     } catch (e) {
-      enqueueSnackbar(e.message, {variant: 'error'});
+      enqueueSnackbar(e.message, { variant: 'error' });
       console.log(e);
     }
   };

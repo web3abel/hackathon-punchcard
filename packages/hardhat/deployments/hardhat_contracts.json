@@ -1,85 +1,4 @@
 {
-  "4": {
-    "rinkeby": {
-      "name": "rinkeby",
-      "chainId": "4",
-      "contracts": {
-        "Greeter": {
-          "address": "0x971f1E92DdCf8EbaF9f2Ed83bfEe87e3E2816B81",
-          "abi": [
-            {
-              "inputs": [
-                {
-                  "internalType": "string",
-                  "name": "_greet",
-                  "type": "string"
-                }
-              ],
-              "stateMutability": "nonpayable",
-              "type": "constructor"
-            },
-            {
-              "inputs": [],
-              "name": "greet",
-              "outputs": [
-                {
-                  "internalType": "string",
-                  "name": "",
-                  "type": "string"
-                }
-              ],
-              "stateMutability": "view",
-              "type": "function"
-            },
-            {
-              "inputs": [
-                {
-                  "internalType": "string",
-                  "name": "_greeting",
-                  "type": "string"
-                }
-              ],
-              "name": "setGreeting",
-              "outputs": [],
-              "stateMutability": "nonpayable",
-              "type": "function"
-            }
-          ]
-        },
-        "Storage": {
-          "address": "0x7Ae4DF8850b1a05b47F40a37EC8AA3374464644C",
-          "abi": [
-            {
-              "inputs": [],
-              "name": "retrieve",
-              "outputs": [
-                {
-                  "internalType": "uint256",
-                  "name": "",
-                  "type": "uint256"
-                }
-              ],
-              "stateMutability": "view",
-              "type": "function"
-            },
-            {
-              "inputs": [
-                {
-                  "internalType": "uint256",
-                  "name": "num",
-                  "type": "uint256"
-                }
-              ],
-              "name": "store",
-              "outputs": [],
-              "stateMutability": "nonpayable",
-              "type": "function"
-            }
-          ]
-        }
-      }
-    }
-  },
   "1337": {
     "localhost": {
       "name": "localhost",
@@ -248,7 +167,7 @@
       "chainId": "44787",
       "contracts": {
         "Greeter": {
-          "address": "0xc7576A90cE35cb1614EdA509ee766Ea7377b5759",
+          "address": "0x15E98280Faf5081357d9aE69559d071c11Fb149b",
           "abi": [
             {
               "inputs": [
@@ -309,7 +228,7 @@
           ]
         },
         "Storage": {
-          "address": "0x5ba3ec4808A655381452f4b58C929e4200B4DF69",
+          "address": "0xB3de8FbAb1d7252691854bbB6972f45C26e0206f",
           "abi": [
             {
               "anonymous": false,

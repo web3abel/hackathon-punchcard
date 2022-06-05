@@ -35,6 +35,7 @@
     ]
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.2.5"
+    "@netlify/plugin-nextjs": "^4.2.5",
+    "hardhat": "^2.9.7"
   }
 }
